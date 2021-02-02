@@ -1,0 +1,97 @@
+body {
+	font-family: Arial, sans-serif;
+	/*max-width: 1280px;*/
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	text-decoration: none;
+	color: inherit;
+	margin: 0;
+}
+
+.header .header--nav {
+	text-align: center;
+	padding: 32px 0;
+}
+
+.header .header--nav .header--nav-link:not(:last-of-type) {
+	margin-right: 65px;
+}
+
+.header .header--nav .header--nav-link {
+	color: #16A085;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+
+.main {
+	background-color: #F5F6F7;
+	padding-bottom: 94px;
+}
+
+.main .main--picture {
+	object-fit: cover;
+	width: 100%;
+	background-color: #323232;
+}
+
+.main .main--title {
+	text-align: center;
+	margin-top: 54px;
+	font-size: 22px;
+	color: #373737;
+}
+
+.main .main--text-container {
+	text-align: center;
+	margin: 34px 104px 0;
+}
+
+.main .main--text-container .text-container--text {
+	color: #373737;
+	font-size: 16px;
+}
+
+.main .main--text-container .text-container--text:not(:last-of-type) {
+	margin-bottom: 28px;
+}
+
+.main .main--text {
+	color: #373737;
+	font-size: 16px;
+	text-align: center;
+}
+
+.main .main--btn {
+	padding: 24px 44px 18px;
+	background-color: #16A085;
+	color: #fff;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	transition: opacity 200ms;
+	outline: none;
+	border-radius: 3px;
+	margin: 40px auto 0;
+	display: block;
+} 
+
+.main .main--btn:hover {
+	opacity: 0.7;
+}
+
+
+
+.footer {
+	padding: 47px 104px;
+	text-align: right;
+}
+
+.footer .footer--copyrigth {
+	color: #373737;
+	font-size: 16px;
+}
+
